@@ -25,7 +25,6 @@ async function saveQuestion(question, answer) {
                 question: question,
                 answer: answer,
                 timestamp: new Date()
-
             }
         });
         console.log('Question saved', result);
